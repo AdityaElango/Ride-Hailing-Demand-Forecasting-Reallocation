@@ -1,0 +1,25 @@
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Notebook artifacts
+.ipynb_checkpoints/
+
+# Local/editor settings
+.vscode/
+
+# Auto-generated model training logs
+catboost_info/
+
+# Archived generated and scratch artifacts
+archive/generated/
+archive/scratch/
+
+# Optional: ignore all archived items if not needed in repo
+# archive/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
